@@ -1,0 +1,7 @@
+print ('Calcula a idade em anos, meses e dias')
+print ('-------------------------------------------------')
+idias = int(input('Digite sua idade em dias: '))
+anos = int(idias / 365)
+mes = int((idias % 365) / 30)
+dia = int((idias % 365) % 30)
+print ('Você tem', anos, 'anos,', mes,'mêses e', dia,'dias')
