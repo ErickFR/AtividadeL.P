@@ -1,0 +1,10 @@
+#encoding: utf-8
+a = int(input('Atribua o valor de A: '))
+b = int(input('Atribua o valor de B: '))
+c = int(input('Atribua o valor de C: '))
+
+if (a > (b + c) or b >(a + c) or c > (a + b)):
+    print ('Não forma um triângulo...')
+else:
+    area = (a + b + c) / 2
+    print ('É um triângulo e sua area é {}!'.format(area))
