@@ -1,0 +1,13 @@
+#encoding: utf-8
+a = int(input('Atribua o valor de A: '))
+b = int(input('Atribua o valor de B: '))
+c = int(input('Atribua o valor de C: '))
+
+if ((a==b) or (a==c) or (b==a) or (b==c) or (c==a) or (c==b)):
+        print ('Não permitido valores iguais, tente outra vez...')
+elif((a < b) and (a < c)):
+    print ('O menor número é o do valor A, que é igual {}!'.format(a))
+elif ((b < a) and (b < c)):
+    print ('O menor número é o do valor B, que é igual {}!'.format(b))
+elif ((c < a) and (c < b)):
+    print ('O menor número é o do valor C, que é igual {}!'.format(c))
